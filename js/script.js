@@ -34,6 +34,7 @@ $(document).ready(() => {
         $('.js-burger-menu').removeClass('js-active');
         // получем идентификатор блока из атрибута href
         $('.js-burger-trigger').removeClass('js-active');
+        $('body').removeClass('overflowBd');
         var id  = $(this).attr('href'),
 
         // находим высоту, на которой расположен блок
